@@ -1,0 +1,132 @@
+{
+  "language": "English",
+  "language_code": "en",
+  "entries": [
+    {
+      "surface_forms": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings"],
+      "lemma": "hello",
+      "pos": "INTERJECTION",
+      "concept": "GREETING",
+      "meaning": "greeting salutation"
+    },
+    {
+      "surface_forms": ["thanks", "thank you", "appreciate", "grateful"],
+      "lemma": "thank",
+      "pos": "VERB",
+      "concept": "THANKS",
+      "meaning": "expression of gratitude"
+    },
+    {
+      "surface_forms": ["bye", "goodbye", "see you", "farewell", "take care"],
+      "lemma": "goodbye",
+      "pos": "INTERJECTION",
+      "concept": "FAREWELL",
+      "meaning": "parting farewell"
+    },
+    {
+      "surface_forms": ["doctor", "physician", "dr", "dr.", "specialist", "surgeon", "pediatrician"],
+      "lemma": "doctor",
+      "pos": "NOUN",
+      "concept": "DOCTOR",
+      "meaning": "medical doctor"
+    },
+    {
+      "surface_forms": ["hospital", "clinic", "dispensary", "infirmary", "healthcare center"],
+      "lemma": "hospital",
+      "pos": "NOUN",
+      "concept": "HOSPITAL",
+      "meaning": "medical facility"
+    },
+    {
+      "surface_forms": ["medicine", "medicines", "medication", "drugs", "pills", "syrup", "tablet"],
+      "lemma": "medicine",
+      "pos": "NOUN",
+      "concept": "MEDICINE",
+      "meaning": "pharmaceutical medication"
+    },
+    {
+      "surface_forms": ["appointment", "booking", "consultation", "visit"],
+      "lemma": "appointment",
+      "pos": "NOUN",
+      "concept": "APPOINTMENT",
+      "meaning": "scheduled consultation"
+    },
+    {
+      "surface_forms": ["report", "reports", "test results", "scan", "x-ray", "blood test"],
+      "lemma": "report",
+      "pos": "NOUN",
+      "concept": "MEDICAL_REPORT",
+      "meaning": "diagnostic medical test report"
+    },
+    {
+      "surface_forms": ["pain", "ache", "hurt", "sore", "headache", "stomach ache", "backache"],
+      "lemma": "pain",
+      "pos": "NOUN",
+      "concept": "PAIN",
+      "meaning": "physical pain or discomfort"
+    },
+    {
+      "surface_forms": ["fever", "temperature", "chills"],
+      "lemma": "fever",
+      "pos": "NOUN",
+      "concept": "FEVER",
+      "meaning": "high body temperature"
+    },
+    {
+      "surface_forms": ["tired", "fatigue", "exhausted", "weakness"],
+      "lemma": "tired",
+      "pos": "ADJECTIVE",
+      "concept": "FATIGUE",
+      "meaning": "physical tiredness or fatigue"
+    },
+    {
+      "surface_forms": ["where", "location", "place", "directions", "way"],
+      "lemma": "where",
+      "pos": "ADVERB",
+      "concept": "WHERE",
+      "meaning": "spatial query"
+    },
+    {
+      "surface_forms": ["when", "time", "hour", "timing", "schedule"],
+      "lemma": "when",
+      "pos": "ADVERB",
+      "concept": "WHEN",
+      "meaning": "temporal query"
+    },
+    {
+      "surface_forms": ["who", "whom", "whose"],
+      "lemma": "who",
+      "pos": "PRONOUN",
+      "concept": "WHO",
+      "meaning": "person query"
+    },
+    {
+      "surface_forms": ["help", "assist", "assistance", "support", "guidance"],
+      "lemma": "help",
+      "pos": "NOUN",
+      "concept": "HELP",
+      "meaning": "request for assistance"
+    },
+    {
+      "surface_forms": ["emergency", "urgent", "critical", "ambulance", "danger"],
+      "lemma": "emergency",
+      "pos": "NOUN",
+      "concept": "EMERGENCY",
+      "meaning": "critical medical emergency"
+    },
+    {
+      "surface_forms": ["yes", "yeah", "yep", "sure", "correct", "fine", "ok", "okay"],
+      "lemma": "yes",
+      "pos": "PARTICLE",
+      "concept": "YES",
+      "meaning": "affirmation"
+    },
+    {
+      "surface_forms": ["no", "nope", "nah", "never", "not"],
+      "lemma": "no",
+      "pos": "PARTICLE",
+      "concept": "NO",
+      "meaning": "negation"
+    }
+  ]
+}

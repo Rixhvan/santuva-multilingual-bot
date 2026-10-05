@@ -1,0 +1,184 @@
+{
+  "intents": [
+    {
+      "name": "GREETING",
+      "dialogue_act": "GREETING",
+      "description": "User greets the system or opens dialogue",
+      "examples": {
+        "sa": ["नमस्ते", "नमो नमः", "सुप्रभातम्", "शुभदिनम्", "प्रणामः"],
+        "en": ["hello", "hi", "hey there", "good morning", "good day"],
+        "tcy": ["ನಮಸ್ಕಾರ", "namaskara", "solmelu", "ಸೊಲ್ಮೆಲು", "encha uller"]
+      }
+    },
+    {
+      "name": "FAREWELL",
+      "dialogue_act": "FAREWELL",
+      "description": "User departs or bids goodbye",
+      "examples": {
+        "sa": ["पुनर्मिलामः", "गमिष्यामि", "शुभं भवतु"],
+        "en": ["bye", "goodbye", "see you later", "take care", "have a nice day"],
+        "tcy": ["ಪೋದು ಬರ್ಪೆ", "podu barpe", "barpe", "ಬರ್ಪೆ"]
+      }
+    },
+    {
+      "name": "THANKS",
+      "dialogue_act": "CONFIRMATION",
+      "description": "User expresses gratitude",
+      "examples": {
+        "sa": ["धन्यवादः", "अनुगृहीतोऽस्मि", "कृतज्ञोऽस्मि"],
+        "en": ["thank you", "thanks a lot", "many thanks", "appreciate it"],
+        "tcy": ["ಸೊಲ್ಮೆಲು", "solmelu", "dhanyavada", "ಧನ್ಯವಾದ"]
+      }
+    },
+    {
+      "name": "INTRODUCTION",
+      "dialogue_act": "STATEMENT",
+      "description": "User introduces themselves or states their name",
+      "examples": {
+        "sa": ["मम नाम रामः", "मम नाम रमेशः", "अहं कृष्णः अस्मि"],
+        "en": ["my name is Ramesh", "I am John", "myself Priya"],
+        "tcy": ["ಎನ್ನ ಪುದರ್ ರಮೇಶ್", "enna pudar Ramesh", "yan Ramesh"]
+      }
+    },
+    {
+      "name": "HELP",
+      "dialogue_act": "DIRECTIVE",
+      "description": "User asks for help or assistance",
+      "examples": {
+        "sa": ["कृपया साहाय्यं करोतु", "अहं साहाय्यम् इच्छामि", "मां साहाय्यं कुरु"],
+        "en": ["can you help me?", "I need assistance", "help please", "what can you do?"],
+        "tcy": ["ಎಂಕ್ ಸಹಾಯ ಬೋಡು", "enk sahaya bodu", "dayamalth help malpule"]
+      }
+    },
+    {
+      "name": "LOCATION_QUERY",
+      "dialogue_act": "QUESTION",
+      "description": "User inquires where someone or somewhere is located",
+      "examples": {
+        "sa": ["चिकित्सकः कुत्र अस्ति?", "चिकित्सालयः कुत्र अस्ति?", "मार्गः कुत्र अस्ति?"],
+        "en": ["where is the doctor?", "where is the hospital?", "can you tell me where to go?", "which floor is it on?"],
+        "tcy": ["ದೋಕ್ತೆರ್ ವಾಡೆ ಉಲ್ಲೆರ್?", "vaade hospital undu?", "dokther vaade uller?", "hospital vaade ullundu?"]
+      }
+    },
+    {
+      "name": "TIME_QUERY",
+      "dialogue_act": "QUESTION",
+      "description": "User inquires about timing, hours, or schedule",
+      "examples": {
+        "sa": ["कदा चिकित्सकः आगमिष्यति?", "कः समयः अस्ति?", "चिकित्सालयस्य समयः कति?"],
+        "en": ["when does the doctor come?", "what time is it open?", "what is the appointment time?"],
+        "tcy": ["ಏಪ ದೋಕ್ತೆರ್ ಬರ್ಪೆರ್?", "portu aeti?", "timing daane?", "naale appointment eapa?"]
+      }
+    },
+    {
+      "name": "INFORMATION_QUERY",
+      "dialogue_act": "QUESTION",
+      "description": "User seeks information about a concept, person, or report",
+      "examples": {
+        "sa": ["मम चिकित्सकस्य विषये ज्ञातुम् इच्छामि", "संस्कृतभाषायाः विषये वदतु", "औषधस्य विषये वदतु"],
+        "en": ["tell me about Sanskrit", "can I talk to someone about my report?", "I want information about the doctor"],
+        "tcy": ["ವರದಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೋಡು", "tulu bage panle", "doctor bage gottunda?", "doctor naale appointment idiya?"]
+      }
+    },
+    {
+      "name": "REQUEST",
+      "dialogue_act": "DIRECTIVE",
+      "description": "User makes a general request or asks to perform an action",
+      "examples": {
+        "sa": ["कृपया इदं वदतु", "मम साहाय्यं कर्तुम् अर्हति वा"],
+        "en": ["please do this", "can you check this for me?", "could you explain this?"],
+        "tcy": ["dayamalth unden toole", "undenu malpule", "dayamalth panle"]
+      }
+    },
+    {
+      "name": "CONFIRMATION",
+      "dialogue_act": "CONFIRMATION",
+      "description": "User confirms something is correct",
+      "examples": {
+        "sa": ["सत्यम्", "उचितम्", "एवमेव अस्ति"],
+        "en": ["that is correct", "yes exactly", "confirmed", "that's right"],
+        "tcy": ["ಅಂದ್ ಸರಿ", "and sari", "correct undu"]
+      }
+    },
+    {
+      "name": "DENIAL",
+      "dialogue_act": "DENIAL",
+      "description": "User denies or corrects previous statement",
+      "examples": {
+        "sa": ["नैव", "इदं न सम्यक्", "नहि नहि"],
+        "en": ["no that is not right", "incorrect", "that's wrong", "not that"],
+        "tcy": ["ಸರಿ ಇಜ್ಜಿ", "sari ijji", "ijji thappu"]
+      }
+    },
+    {
+      "name": "YES",
+      "dialogue_act": "AFFIRMATION",
+      "description": "Simple affirmative response",
+      "examples": {
+        "sa": ["आम्", "बाढम्", "सत्यम्"],
+        "en": ["yes", "yeah", "yep", "sure", "ok", "fine"],
+        "tcy": ["ಆಂಡ್", "ಅಂದ್", "and", "aand"]
+      }
+    },
+    {
+      "name": "NO",
+      "dialogue_act": "NEGATION",
+      "description": "Simple negative response",
+      "examples": {
+        "sa": ["न", "नहि", "मास्तु"],
+        "en": ["no", "nope", "nah", "never"],
+        "tcy": ["ಇಜ್ಜಿ", "ijji", "ಅತ್ತ್", "att"]
+      }
+    },
+    {
+      "name": "COMPLAINT",
+      "dialogue_act": "STATEMENT",
+      "description": "User registers a dissatisfaction or health complaint",
+      "examples": {
+        "sa": ["मम शिरोवेदना अस्ति", "अहं श्रान्तः अस्मि", "मम स्वास्थ्यं सम्यक् नास्ति"],
+        "en": ["I have a severe headache", "I am feeling tired", "this service is not working"],
+        "tcy": ["ಎಂಕ್ ತರೆಬೇನೆ ಉಂಡು", "enk tarebene undu", "yan mast tired ullena"]
+      }
+    },
+    {
+      "name": "FEEDBACK",
+      "dialogue_act": "STATEMENT",
+      "description": "User provides feedback about the interaction",
+      "examples": {
+        "sa": ["भवतः उत्तरं सम्यक् अस्ति", "साधु उत्तरम्"],
+        "en": ["good response", "you are very helpful", "nice answer"],
+        "tcy": ["mast laik undu", "edde uthara", "laik panthar"]
+      }
+    },
+    {
+      "name": "EMERGENCY",
+      "dialogue_act": "DIRECTIVE",
+      "description": "Critical emergency requiring immediate attention",
+      "examples": {
+        "sa": ["आपत्कालः अस्ति", "शीघ्रं साहाय्यं कुरु", "त्राणम् त्राणम्"],
+        "en": ["emergency!", "call an ambulance", "urgent help needed immediately", "patient is unconscious"],
+        "tcy": ["ತುರ್ತು ಸಹಾಯ ಬೋಡು", "aapath undu", "emergency undu bega bale"]
+      }
+    },
+    {
+      "name": "GENERAL_QUESTION",
+      "dialogue_act": "QUESTION",
+      "description": "General conversational question",
+      "examples": {
+        "sa": ["कथम् अस्ति?", "किं करोषि?", "किं वृत्तम्?"],
+        "en": ["how are you?", "what is up?", "how is everything going?"],
+        "tcy": ["ಎಂಚ ಉಲ್ಲೆರ್?", "encha uller?", "daane vishesha?", "ದಾನೆ ವಿಶೇಷ?"]
+      }
+    },
+    {
+      "name": "UNKNOWN",
+      "dialogue_act": "UNKNOWN",
+      "description": "Input cannot be mapped with sufficient confidence",
+      "examples": {
+        "sa": ["xyz abc"],
+        "en": ["asdfghjk"],
+        "tcy": ["qwerty"]
+      }
+    }
+  ]
+}

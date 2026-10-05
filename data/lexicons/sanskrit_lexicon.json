@@ -1,0 +1,302 @@
+{
+  "language": "Sanskrit",
+  "language_code": "sa",
+  "entries": [
+    {
+      "surface_forms": ["नमस्ते", "नमो", "नमस्कारः", "प्रणामः"],
+      "lemma": "नमस्ते",
+      "pos": "INTERJECTION",
+      "concept": "GREETING",
+      "meaning": "greetings / respectful salutation",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["शुभदिनम्", "सुप्रभातम्", "शुभरात्रिः"],
+      "lemma": "शुभदिनम्",
+      "pos": "NOUN",
+      "concept": "GREETING",
+      "meaning": "good day / good morning / good night",
+      "morphology": {"gender": "neuter", "number": "singular"}
+    },
+    {
+      "surface_forms": ["धन्यवादः", "अनुगृहीतोऽस्मि", "कृतज्ञोऽस्मि"],
+      "lemma": "धन्यवाद",
+      "pos": "NOUN",
+      "concept": "THANKS",
+      "meaning": "thank you / gratitude",
+      "morphology": {"gender": "masculine", "number": "singular", "case": "nominative"}
+    },
+    {
+      "surface_forms": ["पुनर्मिलामः", "गमिष्यामि", "शुभं भवतु"],
+      "lemma": "पुनर्मिलामः",
+      "pos": "VERB",
+      "concept": "FAREWELL",
+      "meaning": "we meet again / farewell",
+      "morphology": {"person": "1st", "number": "plural", "tense": "present"}
+    },
+    {
+      "surface_forms": ["चिकित्सकः", "चिकित्सकम्", "चिकित्सकेन", "चिकित्सकाय", "चिकित्सकस्य", "चिकित्सके", "वैद्यः", "वैद्यस्य"],
+      "lemma": "चिकित्सक",
+      "pos": "NOUN",
+      "concept": "DOCTOR",
+      "meaning": "doctor / physician",
+      "morphology": {"gender": "masculine", "stem": "a-stem"}
+    },
+    {
+      "surface_forms": ["चिकित्सालयः", "चिकित्सालयम्", "चिकित्सालये", "चिकित्सालयस्य", "रुग्णालयः"],
+      "lemma": "चिकित्सालय",
+      "pos": "NOUN",
+      "concept": "HOSPITAL",
+      "meaning": "hospital / clinic",
+      "morphology": {"gender": "masculine", "stem": "a-stem"}
+    },
+    {
+      "surface_forms": ["औषधम्", "औषधस्य", "औषधानि", "भेषजम्"],
+      "lemma": "औषध",
+      "pos": "NOUN",
+      "concept": "MEDICINE",
+      "meaning": "medicine / medication",
+      "morphology": {"gender": "neuter", "stem": "a-stem"}
+    },
+    {
+      "surface_forms": ["स्वास्थ्यम्", "स्वास्थ्यस्य", "आरोग्यम्"],
+      "lemma": "स्वास्थ्य",
+      "pos": "NOUN",
+      "concept": "HEALTH",
+      "meaning": "health / wellness",
+      "morphology": {"gender": "neuter"}
+    },
+    {
+      "surface_forms": ["रुग्णः", "रोगी", "आतुरः"],
+      "lemma": "रुग्ण",
+      "pos": "NOUN",
+      "concept": "PATIENT",
+      "meaning": "patient / sick person",
+      "morphology": {"gender": "masculine"}
+    },
+    {
+      "surface_forms": ["वेदना", "पीडा", "व्यथा", "शिरोवेदना", "उदरवेदना"],
+      "lemma": "वेदना",
+      "pos": "NOUN",
+      "concept": "PAIN",
+      "meaning": "pain / ache",
+      "morphology": {"gender": "feminine"}
+    },
+    {
+      "surface_forms": ["ज्वरः", "तापः"],
+      "lemma": "ज्वर",
+      "pos": "NOUN",
+      "concept": "FEVER",
+      "meaning": "fever",
+      "morphology": {"gender": "masculine"}
+    },
+    {
+      "surface_forms": ["श्रान्तः", "श्रमः", "क्लान्तिः"],
+      "lemma": "श्रान्त",
+      "pos": "ADJECTIVE",
+      "concept": "FATIGUE",
+      "meaning": "tired / fatigued",
+      "morphology": {"gender": "masculine"}
+    },
+    {
+      "surface_forms": ["रामः", "रामम्", "रामेण", "रामाय", "रामात्", "रामस्य", "रामे", "हे राम"],
+      "lemma": "राम",
+      "pos": "PROPER_NOUN",
+      "concept": "PERSON_RAMA",
+      "meaning": "proper name Rama",
+      "morphology": {"gender": "masculine", "stem": "a-stem"}
+    },
+    {
+      "surface_forms": ["अस्ति", "सन्ति", "असि", "अस्मि", "स्वः", "स्मः"],
+      "lemma": "अस्",
+      "pos": "VERB",
+      "concept": "BE_EXIST",
+      "meaning": "to be / exist",
+      "morphology": {"root": "as", "lakara": "lat", "tense": "present"}
+    },
+    {
+      "surface_forms": ["कुत्र", "क्व"],
+      "lemma": "कुत्र",
+      "pos": "ADVERB",
+      "concept": "WHERE",
+      "meaning": "where",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["कदा"],
+      "lemma": "कदा",
+      "pos": "ADVERB",
+      "concept": "WHEN",
+      "meaning": "when",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["कथम्", "कथं"],
+      "lemma": "कथम्",
+      "pos": "ADVERB",
+      "concept": "HOW",
+      "meaning": "how",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["किम्", "किं"],
+      "lemma": "किम्",
+      "pos": "PRONOUN",
+      "concept": "WHAT",
+      "meaning": "what",
+      "morphology": {"gender": "neuter", "case": "nominative"}
+    },
+    {
+      "surface_forms": ["कः", "का", "के"],
+      "lemma": "किम्",
+      "pos": "PRONOUN",
+      "concept": "WHO",
+      "meaning": "who",
+      "morphology": {"type": "interrogative"}
+    },
+    {
+      "surface_forms": ["इच्छामि", "इच्छति", "वाञ्छामि"],
+      "lemma": "इष्",
+      "pos": "VERB",
+      "concept": "WANT",
+      "meaning": "to desire / want",
+      "morphology": {"root": "ish", "lakara": "lat", "tense": "present"}
+    },
+    {
+      "surface_forms": ["द्रष्टुम्", "पश्यति", "पश्यामि"],
+      "lemma": "दृश्",
+      "pos": "VERB",
+      "concept": "SEE",
+      "meaning": "to see / consult",
+      "morphology": {"type": "infinitive"}
+    },
+    {
+      "surface_forms": ["ज्ञातुम्", "जानाति", "जानामि"],
+      "lemma": "ज्ञा",
+      "pos": "VERB",
+      "concept": "KNOW",
+      "meaning": "to know / inquire",
+      "morphology": {"type": "infinitive"}
+    },
+    {
+      "surface_forms": ["वदतु", "कथयतु", "ज्ञापयतु"],
+      "lemma": "वद्",
+      "pos": "VERB",
+      "concept": "TELL",
+      "meaning": "tell / please speak",
+      "morphology": {"lakara": "lot", "mood": "imperative"}
+    },
+    {
+      "surface_forms": ["कृपया", "साहाय्यम्"],
+      "lemma": "कृपया",
+      "pos": "PARTICLE",
+      "concept": "PLEASE_HELP",
+      "meaning": "please / assistance",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["मम", "मे"],
+      "lemma": "अस्मद्",
+      "pos": "PRONOUN",
+      "concept": "MY",
+      "meaning": "my / of me",
+      "morphology": {"case": "genitive", "number": "singular"}
+    },
+    {
+      "surface_forms": ["अहम्", "अहं"],
+      "lemma": "अस्मद्",
+      "pos": "PRONOUN",
+      "concept": "I",
+      "meaning": "I",
+      "morphology": {"case": "nominative", "number": "singular"}
+    },
+    {
+      "surface_forms": ["भवतः", "भवत्याः", "तव"],
+      "lemma": "भवत्",
+      "pos": "PRONOUN",
+      "concept": "YOUR",
+      "meaning": "your / of you",
+      "morphology": {"case": "genitive", "number": "singular"}
+    },
+    {
+      "surface_forms": ["त्वम्", "त्वं", "भवान्", "भवती"],
+      "lemma": "युष्मद्",
+      "pos": "PRONOUN",
+      "concept": "YOU",
+      "meaning": "you",
+      "morphology": {"case": "nominative", "number": "singular"}
+    },
+    {
+      "surface_forms": ["सूर्यः", "सूर्यस्य", "उदयः", "सूर्योदयः"],
+      "lemma": "सूर्य",
+      "pos": "NOUN",
+      "concept": "SUNRISE",
+      "meaning": "sun / sunrise",
+      "morphology": {"gender": "masculine"}
+    },
+    {
+      "surface_forms": ["समयः", "कालः", "वेला"],
+      "lemma": "समय",
+      "pos": "NOUN",
+      "concept": "TIME",
+      "meaning": "time / hour",
+      "morphology": {"gender": "masculine"}
+    },
+    {
+      "surface_forms": ["अद्य"],
+      "lemma": "अद्य",
+      "pos": "ADVERB",
+      "concept": "TODAY",
+      "meaning": "today",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["श्वः"],
+      "lemma": "श्वः",
+      "pos": "ADVERB",
+      "concept": "TOMORROW",
+      "meaning": "tomorrow",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["ह्यः"],
+      "lemma": "ह्यः",
+      "pos": "ADVERB",
+      "concept": "YESTERDAY",
+      "meaning": "yesterday",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["आम्", "सत्यम्"],
+      "lemma": "आम्",
+      "pos": "PARTICLE",
+      "concept": "YES",
+      "meaning": "yes / truly",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["न", "नहि", "मा"],
+      "lemma": "न",
+      "pos": "PARTICLE",
+      "concept": "NO",
+      "meaning": "no / not",
+      "morphology": {"type": "indeclinable"}
+    },
+    {
+      "surface_forms": ["संस्कृतम्", "संस्कृतेन", "संस्कृतभाषा"],
+      "lemma": "संस्कृत",
+      "pos": "NOUN",
+      "concept": "SANSKRIT_LANGUAGE",
+      "meaning": "Sanskrit language",
+      "morphology": {"gender": "neuter"}
+    },
+    {
+      "surface_forms": ["आपत्कालः", "सङ्कटम्", "त्राणम्"],
+      "lemma": "आपत्काल",
+      "pos": "NOUN",
+      "concept": "EMERGENCY",
+      "meaning": "emergency / distress",
+      "morphology": {"gender": "masculine"}
+    }
+  ]
+}

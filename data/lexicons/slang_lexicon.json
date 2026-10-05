@@ -1,0 +1,113 @@
+{
+  "slang_mappings": [
+    {
+      "slang": "bro",
+      "normalized": "friend",
+      "language": "informal_en",
+      "concept": "ADDRESSEE"
+    },
+    {
+      "slang": "enna madthiya",
+      "normalized": "daane malpuva",
+      "language": "tulu_kannada_slang",
+      "meaning": "what are you doing?",
+      "concept": "WHAT_DOING"
+    },
+    {
+      "slang": "madthiya",
+      "normalized": "malpuva",
+      "language": "informal",
+      "concept": "DOING"
+    },
+    {
+      "slang": "enna",
+      "normalized": "daane",
+      "language": "informal",
+      "concept": "WHAT"
+    },
+    {
+      "slang": "mast",
+      "normalized": "very good",
+      "language": "tulu_slang",
+      "concept": "INTENSIFIER_GOOD"
+    },
+    {
+      "slang": "laik",
+      "normalized": "good",
+      "language": "tulu_slang",
+      "concept": "GOOD"
+    },
+    {
+      "slang": "enla",
+      "normalized": "what man",
+      "language": "tulu_slang",
+      "concept": "WHAT_SALUTATION"
+    },
+    {
+      "slang": "padchi",
+      "normalized": "no need",
+      "language": "tulu_slang",
+      "concept": "NO_NEED"
+    },
+    {
+      "slang": "machha",
+      "normalized": "friend",
+      "language": "south_slang",
+      "concept": "FRIEND"
+    },
+    {
+      "slang": "maga",
+      "normalized": "friend",
+      "language": "south_slang",
+      "concept": "FRIEND"
+    },
+    {
+      "slang": "plz",
+      "normalized": "please",
+      "language": "en_sms",
+      "concept": "PLEASE"
+    },
+    {
+      "slang": "pls",
+      "normalized": "please",
+      "language": "en_sms",
+      "concept": "PLEASE"
+    },
+    {
+      "slang": "u",
+      "normalized": "you",
+      "language": "en_sms",
+      "concept": "YOU"
+    },
+    {
+      "slang": "r",
+      "normalized": "are",
+      "language": "en_sms",
+      "concept": "ARE"
+    },
+    {
+      "slang": "ur",
+      "normalized": "your",
+      "language": "en_sms",
+      "concept": "YOUR"
+    },
+    {
+      "slang": "thx",
+      "normalized": "thanks",
+      "language": "en_sms",
+      "concept": "THANKS"
+    },
+    {
+      "slang": "idk",
+      "normalized": "i do not know",
+      "language": "en_sms",
+      "concept": "DO_NOT_KNOW"
+    },
+    {
+      "slang": "doc",
+      "normalized": "doctor",
+      "language": "en_informal",
+      "concept": "DOCTOR"
+    }
+  ]
+}

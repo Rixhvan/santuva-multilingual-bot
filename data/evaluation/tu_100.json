@@ -1,0 +1,811 @@
+[
+  {
+    "text": "ನಮಸ್ಕಾರ!",
+    "language": "tcy",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ನಮಸ್ಕಾರೊ",
+    "language": "tcy",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ಸೊಲ್ಮೆಲು!",
+    "language": "tcy",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "namaskara",
+    "language": "tcy",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "solmelu",
+    "language": "tcy",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ಎಂಚ ಉಲ್ಲೆರ್?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "encha uller?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ಎಂಚ ಉಲ್ಲಾರ?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ದಾನೆ ವಿಶೇಷ?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "daane vishesha?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "ದೋಕ್ತೆರ್ ವಾಡೆ ಉಲ್ಲೆರ್?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರ್"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ದವಾಖಾನೆ ವಾಡೆ ಉಂಡು?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "ದವಾಖಾನೆ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಆಸ್ಪತ್ರೆ ಓಡೆ ಉಂಡು?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "ಆಸ್ಪತ್ರೆ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಕುಡ್ಲಡ್ ದವಾಖಾನೆ ವಾಡೆ ಉಂಡು?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "location": "ಕುಡ್ಲಡ್",
+      "medical_term": "ದವಾಖಾನೆ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಮರ್ದ್ ಅಂಗಡಿ ವಾಡೆ ತಿಕ್ಕುಂಡು?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medicine": "ಮರ್ದ್"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಏಪ ದೋಕ್ತೆರ್ ಬರ್ಪೆರ್?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರ್"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ದೋಕ್ತೆರೆನ ಸಮಯ ಏಪ?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರೆನ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಇನಿ ದೋಕ್ತೆರ್ ಬರ್ಪೆರಾ?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರ್",
+      "date": "ಇನಿ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ನಾಲೆ ಭೇಟಿ ಆಪುಂಡಾ?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "date": "ನಾಲೆ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಗಂಟೆ ಏತ್ ಆಂಡ್?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "time": "ಗಂಟೆ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ವರದಿ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೋಡು.",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ತುಳು ಭಾಷೆ ಬಗ್ಗೆ ಪಣ್ಲೆ.",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "language": "ತುಳು"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಮರ್ದ್‌ದ ಬಗ್ಗೆ ತೆರಿಯೊಡು.",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medicine": "ಮರ್ದ್‌ದ"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ದೋಕ್ತೆರೆನ್ ತೂವೊಲಿ ವಾ?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರೆನ್"
+    },
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "ಎಂಕ್ ವರದಿ ತಿಕ್ಕುಂಡಾ?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "questions_kn_script"
+  },
+  {
+    "text": "dokther vaade uller?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "dokther"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "davakhane vaade undu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "davakhane"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "hospital vaade undu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "hospital"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "kudlad doctor vaade uller?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "location": "kudlad",
+      "medical_term": "doctor"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "mard vaade tikundu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medicine": "mard"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "eapa doctor barper?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "portu aeti?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "time": "portu"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "ini doctor ullera?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "doctor",
+      "date": "ini"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "naale doctor sandarshana unda?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "doctor",
+      "date": "naale"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "gante eath aand?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "time": "gante"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "report bage mahiti bodu",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "tulu bage panle",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "language": "tulu"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "doctor bage gottunda?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "ovvu room ku pole?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "ini clinic open unda?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "date": "ini"
+    },
+    "category": "questions_latin_script"
+  },
+  {
+    "text": "Doctor naale appointment idiya?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "Doctor",
+      "date": "naale"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Doctor ini clinic du ullera?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "Doctor",
+      "date": "ini"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Hospital vaade ullundu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "Hospital"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Doctor report check malpera?",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {
+      "medical_term": "Doctor"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Appointment time eapa?",
+    "language": "tcy",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "time": "time"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Emergency ward vaade undu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "Emergency"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Doctor consultation fee aeth?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {
+      "medical_term": "Doctor"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Ambulance bega barpunda?",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "code_switching"
+  },
+  {
+    "text": "Blood test result ini tikunda?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "date": "ini"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "ICU room ovvu floor du undu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "code_switching"
+  },
+  {
+    "text": "Medicine list dayamalth korle",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {
+      "medicine": "Medicine"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Doctor cabin vaade undu?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "Doctor"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Scanning report naale tikunda?",
+    "language": "tcy",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "date": "naale"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Doctor operation theatre du ullera?",
+    "language": "tcy",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "Doctor"
+    },
+    "category": "code_switching"
+  },
+  {
+    "text": "Prescription check malpule please",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "code_switching"
+  },
+  {
+    "text": "bro enna madthiya?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "mast laik undu",
+    "language": "tcy",
+    "intent": "FEEDBACK",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "enla vishesha?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "padchi tension gethonla",
+    "language": "tcy",
+    "intent": "STATEMENT",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "boduva eereg?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "laik uthara",
+    "language": "tcy",
+    "intent": "FEEDBACK",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "machha help malpule",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "maga daane samachara?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "enk mast kushi aand",
+    "language": "tcy",
+    "intent": "STATEMENT",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "dayamalth help malpu bro",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "dokther mast edde uller",
+    "language": "tcy",
+    "intent": "STATEMENT",
+    "entities": {
+      "medical_term": "dokther"
+    },
+    "category": "slang_informal"
+  },
+  {
+    "text": "laik aath panle",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "padchi, yan toole",
+    "language": "tcy",
+    "intent": "STATEMENT",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "mast bakkela aand",
+    "language": "tcy",
+    "intent": "STATEMENT",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "enla samachara kudlad?",
+    "language": "tcy",
+    "intent": "GENERAL_QUESTION",
+    "entities": {
+      "location": "kudlad"
+    },
+    "category": "slang_informal"
+  },
+  {
+    "text": "ದಯಮಲ್ತ್ ಸಹಾಯ ಮಲ್ಪುಲೆ.",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "dayamalth sahaya malpule",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ಎಂಕ್ ಸಹಾಯ ಬೋಡು.",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "enk help bodu",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ದಯಮಲ್ತ್ ದೋಕ್ತೆರೆನ್ ಲೆಪ್ಪಿಲೆ.",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {
+      "medical_term": "ದೋಕ್ತೆರೆನ್"
+    },
+    "category": "request_help"
+  },
+  {
+    "text": "ದಯಮಲ್ತ್ ಈ ಮಾಹಿತಿನ್ ಓದುಲೆ.",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ಕುಡೊರ ಪಣ್ಲೆ ದಯಮಲ್ತ್.",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ಎಂಕ್ ದಾರಿ ತೊಜಿಪಾಲೆ.",
+    "language": "tcy",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ದಯಮಲ್ತ್ ನೀರ್ ಕೊರ್ಲೆ.",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "dayamalth explain malpule",
+    "language": "tcy",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "ಎನ್ನ ಪುದರ್ ರಮೇಶ್.",
+    "language": "tcy",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "ರಮೇಶ್"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "enna pudar Ramesh",
+    "language": "tcy",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "Ramesh"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಯಾನ್ ದಿನೇಶ್.",
+    "language": "tcy",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "ದಿನೇಶ್"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "yan Suresh",
+    "language": "tcy",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "Suresh"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಸೊಲ್ಮೆಲು ಈರೆಗ್.",
+    "language": "tcy",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "solmelu eereg",
+    "language": "tcy",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಪೋದು ಬರ್ಪೆ!",
+    "language": "tcy",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "podu barpe",
+    "language": "tcy",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಆಂಡ್, ಅಂದ್.",
+    "language": "tcy",
+    "intent": "YES",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಇಜ್ಜಿ, ತಪ್ಪು.",
+    "language": "tcy",
+    "intent": "NO",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "ಎಂಕ್ ತರೆಬೇನೆ ಉಂಡು.",
+    "language": "tcy",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "ತರೆಬೇನೆ"
+    },
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "enk tarebene undu",
+    "language": "tcy",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "tarebene"
+    },
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ಬಂಜಿಬೇನೆ ಆಪುಂಡು.",
+    "language": "tcy",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "ಬಂಜಿಬೇನೆ"
+    },
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ಯಾನ್ ಮಸ್ತ್ tired ಉಲ್ಲೆ.",
+    "language": "tcy",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ಕಾರ್ಡ್ ಬೇನೆ ಉಂಡು.",
+    "language": "tcy",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "ಕಾರ್ಡ್"
+    },
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ಆಪತ್ತ್ ಉಂಡು ಬೇಗ ಬಲೆ!",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ತುರ್ತು ಸಹಾಯ ಬೋಡು!",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "emergency undu ambulance ಲೆಪ್ಪುಲೆ!",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "ನೆತ್ತೆರ್ ಬರ್ಪೊಂಡು ಬೇಗ ಬಲೆ!",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {
+      "body_part": "ನೆತ್ತೆರ್"
+    },
+    "category": "complaint_emergency"
+  },
+  {
+    "text": "aapath sthiti, doctor bodu!",
+    "language": "tcy",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "complaint_emergency"
+  }
+]

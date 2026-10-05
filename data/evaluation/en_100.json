@@ -1,0 +1,769 @@
+[
+  {
+    "text": "Hello!",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Hi there",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Hey",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Good morning",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Good afternoon",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Good evening",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Greetings to you",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Hey buddy",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Hello assistant",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Hi, how are you?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "Where is the doctor?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Where is the hospital?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "hospital"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Can you tell me where the clinic is located?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "clinic"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Which floor is the cardiology ward on?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Where can I find the pharmacy?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "When does the doctor come?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "What are the hospital visiting hours?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "hospital"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "What time is my appointment?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "appointment"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "When is Dr. Rao available?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "person": "Dr. Rao"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "What time does the OPD open?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Can I talk to someone about my report?",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "report"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Tell me about Sanskrit.",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "language": "Sanskrit"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "What does this medicine do?",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medicine": "medicine"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Can you give me information about health tips?",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Tell me about Tulu language.",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "language": "Tulu"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Who is the head physician?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {
+      "medical_term": "physician"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "How does this consultation work?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {
+      "medical_term": "consultation"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "What is your name?",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "How are you today?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Is the laboratory open now?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "How long will the test take?",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "test"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Where should I submit the blood sample?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Can you explain my diagnosis?",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "diagnosis"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Who is on duty tonight?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "questions"
+  },
+  {
+    "text": "Where is the emergency room located?",
+    "language": "en",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "emergency"
+    },
+    "category": "questions"
+  },
+  {
+    "text": "Can you help me?",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "I need help please.",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "I don't know where to go.",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Please assist me with directions.",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Could you please help?",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Please call a doctor.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "request_help"
+  },
+  {
+    "text": "Please check my appointment status.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {
+      "medical_term": "appointment"
+    },
+    "category": "request_help"
+  },
+  {
+    "text": "Please repeat what you said.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Could you clarify that point?",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Please provide the contact number.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Give me some water please.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Help me find the room.",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Please explain this in simple words.",
+    "language": "en",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Kindly guide me.",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "Can you show me the route?",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "bro what are you doing?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "hey doc, need some advice",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "doc"
+    },
+    "category": "slang_informal"
+  },
+  {
+    "text": "plz help me out",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "pls tell me the time",
+    "language": "en",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "thx for the help!",
+    "language": "en",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "idk what to do next",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "r u there?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "heyyyy assistant",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "sooooo tired today",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "pleaaase help me",
+    "language": "en",
+    "intent": "HELP",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "wbu?",
+    "language": "en",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "hiii there",
+    "language": "en",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "yup, got it",
+    "language": "en",
+    "intent": "CONFIRMATION",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "nope, not that",
+    "language": "en",
+    "intent": "DENIAL",
+    "entities": {},
+    "category": "slang_informal"
+  },
+  {
+    "text": "doc appointment tomorrow plz",
+    "language": "en",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "doc",
+      "date": "tomorrow"
+    },
+    "category": "slang_informal"
+  },
+  {
+    "text": "My name is Ramesh.",
+    "language": "en",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "Ramesh"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "I am John Smith.",
+    "language": "en",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "John"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Call me Priya.",
+    "language": "en",
+    "intent": "INTRODUCTION",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Myself David.",
+    "language": "en",
+    "intent": "INTRODUCTION",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Thank you very much!",
+    "language": "en",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Thanks a lot!",
+    "language": "en",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Many thanks for your support.",
+    "language": "en",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Goodbye!",
+    "language": "en",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Bye, see you later!",
+    "language": "en",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Take care!",
+    "language": "en",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Yes, exactly.",
+    "language": "en",
+    "intent": "CONFIRMATION",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "No, that is incorrect.",
+    "language": "en",
+    "intent": "DENIAL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Yes",
+    "language": "en",
+    "intent": "YES",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "No",
+    "language": "en",
+    "intent": "NO",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "Sure, that works.",
+    "language": "en",
+    "intent": "YES",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "I am feeling tired.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "complaints"
+  },
+  {
+    "text": "I have a severe headache.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "headache"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "My stomach hurts badly.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "stomach"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "I have high fever.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "fever"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "My chest is paining.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "chest"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "I feel very dizzy.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "complaints"
+  },
+  {
+    "text": "I have back pain.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "back"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "My throat is sore.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "throat"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "I am experiencing fatigue.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "complaints"
+  },
+  {
+    "text": "My leg is swollen.",
+    "language": "en",
+    "intent": "COMPLAINT",
+    "entities": {
+      "body_part": "leg"
+    },
+    "category": "complaints"
+  },
+  {
+    "text": "Emergency! Please call an ambulance!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "Urgent medical assistance required immediately!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "The patient is unconscious!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "patient"
+    },
+    "category": "emergency"
+  },
+  {
+    "text": "Heart attack emergency!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "Heavy bleeding, need immediate help!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "Accident victim needs emergency room now!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "emergency"
+    },
+    "category": "emergency"
+  },
+  {
+    "text": "Child is choking, emergency!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "Critical patient in distress!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "patient"
+    },
+    "category": "emergency"
+  },
+  {
+    "text": "Call 108 right now!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency"
+  },
+  {
+    "text": "Emergency doctor needed!",
+    "language": "en",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "doctor"
+    },
+    "category": "emergency"
+  }
+]

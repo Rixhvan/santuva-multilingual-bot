@@ -1,0 +1,357 @@
+{
+  "language": "Tulu",
+  "language_code": "tcy",
+  "entries": [
+    {
+      "surface_forms": ["ನಮಸ್ಕಾರ", "ನಮಸ್ಕಾರೊ", "namaskara", "namaskaro", "ಸೊಲ್ಮೆಲು", "solmelu"],
+      "lemma": "ನಮಸ್ಕಾರ",
+      "pos": "INTERJECTION",
+      "concept": "GREETING",
+      "meaning": "greetings / respectful salutation",
+      "morphology": {"type": "salutation"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಸೊಲ್ಮೆಲು", "solmelu", "ಧನ್ಯವಾದ", "dhanyavada"],
+      "lemma": "ಸೊಲ್ಮೆಲು",
+      "pos": "NOUN",
+      "concept": "THANKS",
+      "meaning": "thank you / gratitude",
+      "morphology": {"type": "courtesy"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಬರ್ಪೆ", "barpe", "ಪೋದು ಬರ್ಪೆ", "podu barpe", "ಬರ್ಪೆರ್", "barper"],
+      "lemma": "ಬರ್ಪೆ",
+      "pos": "VERB",
+      "concept": "FAREWELL",
+      "meaning": "goodbye / I will go and come",
+      "morphology": {"tense": "future", "person": "1st"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ದಾನೆ", "ದಾನೆ?", "daane", "daane?", "ದಾನೆನ್"],
+      "lemma": "ದಾನೆ",
+      "pos": "PRONOUN",
+      "concept": "WHAT",
+      "meaning": "what",
+      "morphology": {"type": "interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ದಾಲ", "ದಾಲಾ", "daala", "dala"],
+      "lemma": "ದಾಲ",
+      "pos": "PRONOUN",
+      "concept": "ANYTHING_NOTHING",
+      "meaning": "anything / nothing",
+      "morphology": {"type": "indefinite"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಎಂಚ", "ಎಂಚ?", "encha", "encha?"],
+      "lemma": "ಎಂಚ",
+      "pos": "ADVERB",
+      "concept": "HOW",
+      "meaning": "how",
+      "morphology": {"type": "interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಎಂಚಿನ", "enchina"],
+      "lemma": "ಎಂಚಿನ",
+      "pos": "ADJECTIVE",
+      "concept": "WHAT_KIND",
+      "meaning": "what kind of",
+      "morphology": {"type": "interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಒವ್ವು", "ovvu", "ಒವ್ವೆ"],
+      "lemma": "ಒವ್ವು",
+      "pos": "PRONOUN",
+      "concept": "WHICH",
+      "meaning": "which",
+      "morphology": {"type": "interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ವಾಡೆ", "ವಾಡೆ?", "vaade", "vaade?", "ಓಡೆ", "ode"],
+      "lemma": "ವಾಡೆ",
+      "pos": "ADVERB",
+      "concept": "WHERE",
+      "meaning": "where",
+      "morphology": {"type": "locative_interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಏರ್", "ಏರ್?", "er", "eer"],
+      "lemma": "ಏರ್",
+      "pos": "PRONOUN",
+      "concept": "WHO",
+      "meaning": "who",
+      "morphology": {"type": "interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಏಪ", "aepa", "aapa"],
+      "lemma": "ಏಪ",
+      "pos": "ADVERB",
+      "concept": "WHEN",
+      "meaning": "when",
+      "morphology": {"type": "temporal_interrogative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಉಲ್ಲೆರಾ", "ಉಲ್ಲೆರ್", "ullera", "uller", "ullara"],
+      "lemma": "ಉಲ್ಲೆರ್",
+      "pos": "VERB",
+      "concept": "ARE_YOU_THERE",
+      "meaning": "are you there / how are you (honorific)",
+      "morphology": {"tense": "present", "person": "2nd_honorific"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಉಂಡು", "undu", "ಇತ್ತ್ಂಡ್", "ಉಂಡಾ"],
+      "lemma": "ಉಂಡು",
+      "pos": "VERB",
+      "concept": "EXISTS",
+      "meaning": "is / exists",
+      "morphology": {"tense": "present", "person": "3rd_neuter"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಇಜ್ಜಿ", "ಇಜ್ಜಂಡ", "ijji", "ijjanda"],
+      "lemma": "ಇಜ್ಜಿ",
+      "pos": "PARTICLE",
+      "concept": "NO_NOT",
+      "meaning": "no / is not / if not",
+      "morphology": {"type": "negative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಬೋಡು", "ಬೋಡಾ", "bodu", "boduva"],
+      "lemma": "ಬೋಡು",
+      "pos": "VERB",
+      "concept": "WANT_NEED",
+      "meaning": "want / need",
+      "morphology": {"type": "modal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಬಲ್ಲಿ", "balli", "ಬಲ್ಪುಂಡು"],
+      "lemma": "ಬಲ್ಲಿ",
+      "pos": "VERB",
+      "concept": "DO_NOT_WANT",
+      "meaning": "do not want / should not",
+      "morphology": {"type": "negative_modal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ದಯಮಲ್ತ್", "ದಯಮಾಲ್ತ್", "dayamalth", "dayamalt"],
+      "lemma": "ದಯಮಲ್ತ್",
+      "pos": "PARTICLE",
+      "concept": "PLEASE",
+      "meaning": "please",
+      "morphology": {"type": "courtesy"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ದೋಕ್ತೆರ್", "ದೋಕ್ತರ್", "ಡಾಕ್ಟರ್", "doctor", "dokther", "vaidyer"],
+      "lemma": "ದೋಕ್ತೆರ್",
+      "pos": "NOUN",
+      "concept": "DOCTOR",
+      "meaning": "doctor / physician",
+      "morphology": {"gender": "honorific"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ದವಾಖಾನೆ", "ಆಸ್ಪತ್ರೆ", "hospital", "davakhane", "aspatre"],
+      "lemma": "ದವಾಖಾನೆ",
+      "pos": "NOUN",
+      "concept": "HOSPITAL",
+      "meaning": "hospital / dispensary",
+      "morphology": {"gender": "neuter"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಮರ್ದ್", "ಮರ್ದ್‌ನ್", "ಮರ್ದು", "mard", "mardu"],
+      "lemma": "ಮರ್ದ್",
+      "pos": "NOUN",
+      "concept": "MEDICINE",
+      "meaning": "medicine",
+      "morphology": {"gender": "neuter"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಸೀಕ್", "ಬೇನೆ", "seek", "bene", "ಸೀಕುಲು"],
+      "lemma": "ಸೀಕ್",
+      "pos": "NOUN",
+      "concept": "ILLNESS_PAIN",
+      "meaning": "sickness / pain",
+      "morphology": {"gender": "neuter"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ತರೆಬೇನೆ", "tarebene", "ಬಂಜಿಬೇನೆ", "banjibene"],
+      "lemma": "ತರೆಬೇನೆ",
+      "pos": "NOUN",
+      "concept": "HEADACHE_PAIN",
+      "meaning": "headache / stomach ache",
+      "morphology": {"gender": "neuter"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಇನಿ", "ini"],
+      "lemma": "ಇನಿ",
+      "pos": "ADVERB",
+      "concept": "TODAY",
+      "meaning": "today",
+      "morphology": {"type": "temporal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ನಾಲೆ", "naale"],
+      "lemma": "ನಾಲೆ",
+      "pos": "ADVERB",
+      "concept": "TOMORROW",
+      "meaning": "tomorrow",
+      "morphology": {"type": "temporal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಕೊಡೆ", "kode"],
+      "lemma": "ಕೊಡೆ",
+      "pos": "ADVERB",
+      "concept": "YESTERDAY",
+      "meaning": "yesterday",
+      "morphology": {"type": "temporal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಯಾನ್", "ಯಾನ", "yaan", "yan"],
+      "lemma": "ಯಾನ್",
+      "pos": "PRONOUN",
+      "concept": "I",
+      "meaning": "I",
+      "morphology": {"person": "1st", "number": "singular"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಈ", "ee"],
+      "lemma": "ಈ",
+      "pos": "PRONOUN",
+      "concept": "YOU",
+      "meaning": "you",
+      "morphology": {"person": "2nd", "number": "singular"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಎಂಕ್", "enk", "ಎಂಕ್‌ಲೆಗ್"],
+      "lemma": "ಯಾನ್",
+      "pos": "PRONOUN",
+      "concept": "TO_ME",
+      "meaning": "to me",
+      "morphology": {"case": "dative", "person": "1st"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ನಿಂಕ್", "nink", "ಈರೆಗ್", "eereg"],
+      "lemma": "ಈ",
+      "pos": "PRONOUN",
+      "concept": "TO_YOU",
+      "meaning": "to you",
+      "morphology": {"case": "dative", "person": "2nd"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಕುಡ್ಲ", "kudla", "ಕುಡ್ಲಡ್"],
+      "lemma": "ಕುಡ್ಲ",
+      "pos": "PROPER_NOUN",
+      "concept": "MANGALORE",
+      "meaning": "Mangalore city",
+      "morphology": {"type": "location"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ತುಳು", "tulu", "ತುಳುನಾಡ್", "tulunad"],
+      "lemma": "ತುಳು",
+      "pos": "NOUN",
+      "concept": "TULU_LANGUAGE",
+      "meaning": "Tulu language / land",
+      "morphology": {"type": "language"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಆಂಡ್", "aand", "and", "ಅಂದ್"],
+      "lemma": "ಆಂಡ್",
+      "pos": "PARTICLE",
+      "concept": "YES",
+      "meaning": "yes / happened",
+      "morphology": {"type": "affirmative"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಮಲ್ಪುಲೆ", "malpule", "ಮಲ್ಪು", "malpu", "madthiya"],
+      "lemma": "ಮಲ್ಪು",
+      "pos": "VERB",
+      "concept": "DO",
+      "meaning": "to do / make",
+      "morphology": {"type": "verb_root"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಪಣ್ಲೆ", "panle", "ಪಂಪೆ", "panpe"],
+      "lemma": "ಪಣ್",
+      "pos": "VERB",
+      "concept": "TELL",
+      "meaning": "to tell / speak",
+      "morphology": {"type": "verb_root"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ತೂಲೆ", "toole", "tule"],
+      "lemma": "ತೂ",
+      "pos": "VERB",
+      "concept": "SEE",
+      "meaning": "to see / look",
+      "morphology": {"type": "verb_root"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಗೊತ್ತುಂಡು", "gottundu"],
+      "lemma": "ಗೊತ್ತುಂಡು",
+      "pos": "VERB",
+      "concept": "KNOW",
+      "meaning": "I know / understood",
+      "morphology": {"type": "predicate"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಗೊತ್ತಿಜ್ಜಿ", "gottijji"],
+      "lemma": "ಗೊತ್ತಿಜ್ಜಿ",
+      "pos": "VERB",
+      "concept": "UNKNOWN_KNOW",
+      "meaning": "don't know / unknown",
+      "morphology": {"type": "negative_predicate"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಅಪಗ", "apaga", "ಇಪಗ", "ipaga"],
+      "lemma": "ಅಪಗ",
+      "pos": "ADVERB",
+      "concept": "THEN_NOW",
+      "meaning": "then / at that time",
+      "morphology": {"type": "temporal"},
+      "resource_tier": "FULL"
+    },
+    {
+      "surface_forms": ["ಆಪತ್ತ್", "ಗಲಾಟೆ", "aapath"],
+      "lemma": "ಆಪತ್ತ್",
+      "pos": "NOUN",
+      "concept": "EMERGENCY",
+      "meaning": "emergency / crisis",
+      "morphology": {"type": "noun"},
+      "resource_tier": "PARTIAL"
+    }
+  ]
+}

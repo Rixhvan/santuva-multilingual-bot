@@ -1,0 +1,760 @@
+[
+  {
+    "text": "नमस्ते",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "नमो नमः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "सुप्रभातम्",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "शुभदिनम्",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "शुभरात्रिः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "प्रणामः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "सर्वेभ्यः नमस्कारः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "भो मित्र, नमो नमः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "सुस्वागतम्",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "नमस्ते भवतः",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "greeting"
+  },
+  {
+    "text": "चिकित्सकः कुत्र अस्ति?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सकः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "चिकित्सालयः कुत्र अस्ति?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सालयः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "मार्गः कुत्र अस्ति?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "औषधालयः कुत्र वर्तते?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "प्रवेशद्वारं कुत्र अस्ति?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "कदा चिकित्सकः आगमिष्यति?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सकः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "चिकित्सालयस्य समयः कः?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सालयस्य"
+    },
+    "category": "question"
+  },
+  {
+    "text": "परामर्शस्य समयः कति?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "कदा औषधं स्वीकर्तव्यम्?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medicine": "औषधं"
+    },
+    "category": "question"
+  },
+  {
+    "text": "कः समयः अस्ति?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "चिकित्सकस्य विषये ज्ञातुम् इच्छामि।",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सकस्य"
+    },
+    "category": "question"
+  },
+  {
+    "text": "संस्कृतभाषायाः विषये वदतु।",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "language": "संस्कृतभाषायाः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "औषधस्य विषये सूचनां ददातु।",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medicine": "औषधस्य"
+    },
+    "category": "question"
+  },
+  {
+    "text": "मम विवरणं किम् अस्ति?",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "स्वास्थ्यस्य विषये किं कर्तव्यम्?",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "किं भवान् मां जानाति?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "कथम् अस्ति भवान्?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "अद्य कः दिवसः?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "कः अत्र अधिकारी?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "चिकित्सकः उपलभ्यते वा?",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सकः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "किं मया अत्र प्रतीक्षणीयं वा?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "रुग्णालयः कदा उद्घाट्यते?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {
+      "medical_term": "रुग्णालयः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "कति वैद्याः सन्ति?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {
+      "medical_term": "वैद्याः"
+    },
+    "category": "question"
+  },
+  {
+    "text": "परीक्षणस्य फलं कदा आगमिष्यति?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "मम प्रतिवेदनं कुत्र अस्ति?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {},
+    "category": "question"
+  },
+  {
+    "text": "कृपया साहाय्यं करोतु।",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "अहं साहाय्यम् इच्छामि।",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "मां साहाय्यं कुरु।",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया मार्गं दर्शयतु।",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया चिकित्सकं सूचयतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {
+      "medical_term": "चिकित्सकं"
+    },
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया औषधं ददातु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {
+      "medicine": "औषधं"
+    },
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया जलं ददातु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया पुनः वदतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "मां विवरणं ददातु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया अत्र आगच्छतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया प्रतीक्षां करोतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "साहाय्यार्थं प्रार्थये।",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया इदं पठतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया उच्चैः वदतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "कृपया स्पष्टीकरोतु।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {},
+    "category": "request_help"
+  },
+  {
+    "text": "सूर्योदयः कदा भवति?",
+    "language": "sa",
+    "intent": "TIME_QUERY",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "चिकित्सालयं गच्छामि।",
+    "language": "sa",
+    "intent": "INFORMATION_QUERY",
+    "entities": {
+      "medical_term": "चिकित्सालयं"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "मम शिरोवेदना अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "शिरोवेदना"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "उदरवेदना बाधते।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "उदरवेदना"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "अत्र कोऽपि नास्ति।",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "रामोऽस्ति मम सखा।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "रामोऽस्ति"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "कृतज्ञोऽस्मि भवतः साहाय्येन।",
+    "language": "sa",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "पुनर्मिलामः सर्वे।",
+    "language": "sa",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "महौषधं दातव्यम्।",
+    "language": "sa",
+    "intent": "REQUEST",
+    "entities": {
+      "medicine": "महौषधं"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "इत्याह वैद्यः।",
+    "language": "sa",
+    "intent": "STATEMENT",
+    "entities": {
+      "medical_term": "वैद्यः"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "अहं श्रान्तः अस्मि।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "मम ज्वरः अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "ज्वरः"
+    },
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "नेत्रवेदना अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "दन्तपीडा अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "पादवेदना अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "sandhi_morphology"
+  },
+  {
+    "text": "मम नाम रामः।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "रामः"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "मम नाम रमेशः।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "रमेशः"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "अहं कृष्णः अस्मि।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "कृष्णः"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "मम नाम प्रिया।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "अहं वैद्यः अस्मि।",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "medical_term": "वैद्यः"
+    },
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "धन्यवादः भवतः।",
+    "language": "sa",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "अतीव धन्यवादः।",
+    "language": "sa",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "अनुगृहीतोऽस्मि।",
+    "language": "sa",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "पुनर्मिलामः।",
+    "language": "sa",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "शुभं भवतु।",
+    "language": "sa",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "गमिष्यामि।",
+    "language": "sa",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "आम्, सत्यम्।",
+    "language": "sa",
+    "intent": "YES",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "नहि नहि।",
+    "language": "sa",
+    "intent": "NO",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "एवमेव अस्ति।",
+    "language": "sa",
+    "intent": "CONFIRMATION",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "इदं न सम्यक्।",
+    "language": "sa",
+    "intent": "DENIAL",
+    "entities": {},
+    "category": "intro_dialogue"
+  },
+  {
+    "text": "namaste",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "katham asti bhavan?",
+    "language": "sa",
+    "intent": "GENERAL_QUESTION",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "mama nama Ramah.",
+    "language": "sa",
+    "intent": "INTRODUCTION",
+    "entities": {
+      "person": "Ramah"
+    },
+    "category": "transliteration"
+  },
+  {
+    "text": "chikitsakah kutra asti?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medical_term": "chikitsakah"
+    },
+    "category": "transliteration"
+  },
+  {
+    "text": "dhanyavadah",
+    "language": "sa",
+    "intent": "THANKS",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "punarmilamah",
+    "language": "sa",
+    "intent": "FAREWELL",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "kripaya sahayyam karotu",
+    "language": "sa",
+    "intent": "HELP",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "aham shrantah asmi",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "aushadham kutra asti?",
+    "language": "sa",
+    "intent": "LOCATION_QUERY",
+    "entities": {
+      "medicine": "aushadham"
+    },
+    "category": "transliteration"
+  },
+  {
+    "text": "shubhadiinam",
+    "language": "sa",
+    "intent": "GREETING",
+    "entities": {},
+    "category": "transliteration"
+  },
+  {
+    "text": "आपत्कालः अस्ति!",
+    "language": "sa",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "शीघ्रं साहाय्यं कुरु!",
+    "language": "sa",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "त्राणम् त्राणम्!",
+    "language": "sa",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "रुग्णः अचेतनः जातः!",
+    "language": "sa",
+    "intent": "EMERGENCY",
+    "entities": {
+      "medical_term": "रुग्णः"
+    },
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "अतीव रक्तस्रावः भवति!",
+    "language": "sa",
+    "intent": "EMERGENCY",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "तीव्रज्वरः बाधते।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {
+      "disease": "तीव्रज्वरः"
+    },
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "अहं कष्टे अस्मि।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "श्वासकष्टम् अस्ति।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "मम हृदयवेदना वर्तते।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "emergency_complaint"
+  },
+  {
+    "text": "अतीव दुर्बलः अस्मि।",
+    "language": "sa",
+    "intent": "COMPLAINT",
+    "entities": {},
+    "category": "emergency_complaint"
+  }
+]
