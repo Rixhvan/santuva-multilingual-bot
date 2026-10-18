@@ -1,10 +1,11 @@
-# Santuva
+# Santuva: Multilingual Conversational AI (Level 1)
 ### Sanskrit (संस्कृतम्) • English • Tulu (ತುಳು)
 
-**Santuva** is a multilingual conversational chatbot focused on **Sanskrit**, **English**, and **Tulu**.
+**Santuva** is a standalone multilingual conversational AI system and computational linguistics engine built for **Sanskrit**, **English**, and **Tulu**.
+Named *Santuva* (evoking harmony, connection, and linguistic bridging), it processes natural conversational input with deep morphological, lexical, and semantic awareness.
 
 > **Strict Scope Restriction Compliance**:
-> This project builds **ONLY Level 1** of a multilingual conversational chatbot. It is a standalone NLP system and deliberately contains **NO Hospital Management System (HMS), hospital database, appointment booking module, doctor database, billing module, patient management module, or clinical integration**. All dialogue is educational/general and can later be interfaced to external systems via REST APIs.
+> This project builds **ONLY Level 1** of a multilingual conversational chatbot. It is a standalone NLP system and deliberately contains **NO Hospital Management System (HMS), hospital database, appointment booking module, doctor database, billing module, patient management module, or clinical integration**. All dialogue is general conversational AI and can later be interfaced to external systems via REST APIs.
 
 ---
 
@@ -27,7 +28,8 @@
 9. **Multilingual Semantic Vector Space**: Character and subword n-gram vector representations with cross-lingual concept centroids.
 10. **Dialogue State & Short-Term Memory**: Turn tracking, accumulated entity memory, and anaphora resolution (resolving ambiguous pronouns like `"it"`).
 11. **Language-Preserving Response Generation**: Responds in the user's detected language without crude round-trip translation.
-12. **Learn How Santuva Understands You**: A friendly, step-by-step panel that shows how Santuva understands each message (words, base forms, word types, names, intent, sandhi splits, and confidence scores).
+12. **"Learn It: Inside Santuva's Mind" Panel**: Interactive, educational sentence breakdown panel presenting word-by-word roots, roles in sentence, complete English meanings, and identified entities in plain, everyday human-friendly terms without dry developer jargon.
+13. **Unified Speech Engine**: Consistent browser speech synthesis capable of articulating Sanskrit, Tulu, and English using the exact same narrator voice.
 
 ---
 
@@ -105,3 +107,7 @@ Benchmark output:
 - `POST /api/chat`: Processes a user message through the complete NLP pipeline and returns bot response, detected language, and full `nlp_analysis` metadata.
 - `POST /api/reset`: Resets conversational memory for a given session.
 - `GET /api/info`: Returns supported languages, scripts, confidence thresholds, and Tulu resource tiers.
+
+## Continuous Integration
+
+Santuva uses Jenkins for continuous integration. The pipeline checks out source code from GitHub, validates the Docker Compose configuration, runs Python tests, builds the frontend, and builds the backend and frontend Docker images.
